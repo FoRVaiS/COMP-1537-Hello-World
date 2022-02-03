@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP1537 - Lab 3</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header, .footer {
+            text-align: center;
+            color: white;
+
+            background-color: red;
+
+            margin: 0;
+        }
+
+        .nav, .articles {
+            height: 15rem;
+            box-sizing: border-box;
+            
+            padding: 0.5rem;
+        }
+
+        .nav {
+            display: inline;
+            background-color: hsl(240, 50%, 55%);
+            width: 20%;
+
+            float: left;
+            
+
+        }
+
+        .articles {
+            display: inline;
+            background-color: green;
+            width: 80%;
+
+            float: right;
+        }
+
+        .article--paragraph {
+            width: 80%;
+
+            float: left;
+        }
+
+        .article--img {
+            width: 20%;
+
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Cities</h1>
+    </header>
+    <span class="body">
+        <aside class="nav">
+            <nav>
+                <h1>Nav</h1>
+                <ul>
+                    <li><a href="#">Vancouver</a></li>
+                    <li><a href="#">London</a></li>
+                    <li><a href="#">Paris</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="articles">
+            <article>
+                <p class="article--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aspernatur temporibus neque odit aliquid
+                    modi consectetur mollitia dolorum quibusdam enim. Maiores, dolorem veritatis tenetur totam non quod
+                    ipsum. Tempora maiores doloribus ipsa nostrum quam molestiae nihil.</p>
+                <img src="https://via.placeholder.com/250" alt="" class="article--img">
+            </article>
+        </section>
+    </span>
+    <footer class="footer">
+        <h1>Footer</h1>
+    </footer>
+</body>
+
+</html>
