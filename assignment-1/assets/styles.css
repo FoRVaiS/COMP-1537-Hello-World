@@ -1,0 +1,136 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+} 
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: hsl(80, 100%, 40%);
+}
+
+.body__paragraph {
+  margin-bottom: 2ch;
+  line-height: 1.5rem;
+}
+
+.details {
+  float: right;
+  width: 250px;
+  background-color: #f2f2f2;
+  border: 1px solid #73738c;
+  padding: 0.25rem;
+  margin-left: 1rem;
+}
+.details__title, .details__description {
+  text-align: center;
+}
+.details__title {
+  background-color: #cae04b;
+  padding: 2px 0;
+  box-sizing: border-box;
+}
+.details__description {
+  padding: 0.25rem 0;
+}
+.details__image {
+  max-inline-size: 100%;
+  min-inline-size: 100%;
+}
+
+.quick-links {
+  width: 80%;
+  margin: 0 auto;
+}
+.quick-links__bar {
+  float: left;
+  width: 15%;
+}
+.quick-links__list {
+  list-style: none;
+}
+.quick-links__header {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+.quick-links__h-rule {
+  border-radius: 50%;
+  color: rgba(115, 115, 140, 0.25);
+}
+
+.header {
+  font-family: serif;
+  padding: 1.5rem 0.5rem;
+  padding-top: 0.5rem;
+}
+.header__h-rule {
+  margin-bottom: 0.25rem;
+}
+.header__subtitle {
+  color: #1a1a1a;
+}
+
+.content-table {
+  border: 1px solid #cccccc;
+  width: 250px;
+  clear: both;
+  margin-left: 0.5rem;
+}
+.content-table__header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.content-table__list {
+  width: 100%;
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+#main-container, .body__paragraph, .details, .content-table {
+  padding: 0.5rem;
+}
+
+#empty-header {
+  width: 100%;
+  height: 5rem;
+}
+
+#main-container {
+  float: left;
+  width: 85%;
+  background-color: white;
+  border: 1px solid #73738c;
+}
+
+#see-also {
+  padding: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+#see-also__header {
+  padding-bottom: 0.25rem;
+}
