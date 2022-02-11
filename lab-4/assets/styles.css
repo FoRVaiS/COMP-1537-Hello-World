@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #262626;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+li, ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 10px;
+  height: 100vh;
+}
+.container--left {
+  float: left;
+}
+.container--right {
+  float: right;
+}
+.container--fill {
+  clear: both;
+}
+@media screen and (min-width: 600px) {
+  .container--left {
+    width: 75%;
+  }
+  .container--right {
+    width: 25%;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container--left, .container--right {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+#footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.header {
+  padding: 1rem 0;
+}
+.header__title, .header__description {
+  text-align: center;
+}
+
+.nav {
+  overflow: hidden;
+}
+.nav--primary {
+  background-color: #333333;
+}
+.nav__link, .nav__link--end {
+  display: block;
+  padding: 14px 16px;
+  color: #f2f2f2;
+}
+@media screen and (min-width: 300px) {
+  .nav__link {
+    float: left;
+  }
+  .nav__link--end {
+    float: right;
+  }
+}
+@media screen and (max-width: 300px) {
+  .nav__link, .nav__link--end {
+    float: none;
+  }
+}
+
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #a2b9bc;
+}
+.card__description, .card__body {
+  margin-top: 2ch;
+}
+.card__img {
+  padding: 0.5rem;
+}
+@media screen and (max-width: 300px) {
+  .card__img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) {
+  .card__img {
+    width: 200px;
+  }
+}
