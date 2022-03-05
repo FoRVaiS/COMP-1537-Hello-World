@@ -1,0 +1,23 @@
+*, *::before, *::after {
+  font-family: system-ui;
+}
+
+.history {
+  margin: 1rem 0;
+  font-size: 16px;
+}
+.history__add {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.history__subtract {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.history__multiply {
+  background-color: rgba(0, 128, 255, 0.5);
+}
+.history__divide {
+  background-color: rgba(255, 0, 170, 0.5);
+}
+.history__hide {
+  margin-left: 1rem;
+}
