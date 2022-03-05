@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Comp1537 - Lab 06</title>
+  </head>
+  <body>
+    <div class="operand">
+      <label for="lhs">First Operand</label>
+      <input id="lhs" type="text" name="lhs">
+    </div>
+    <div class="operand">
+      <label for="rhs">Second Operand</label>
+      <input id="rhs" type="text" name="rhs">
+    </div>
+    <div id="operations">
+      <button id="add" type="submit">+</button>
+      <button id="subtract" type="submit">-</button>
+      <button id="multiply" type="submit">*</button>
+      <button id="divide" type="submit">/</button>
+    </div>
+    <p id="result">--</p>
+    <h1>History</h1>
+    <div id="history"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
