@@ -17,9 +17,9 @@ function appendToHistory(opString, className) {
 
   $('#history').append(elOpString);
 
-  elHideBtn.onclick = function () {
+  $('body').on('click', '.history__hide', function () {
     $(this).parent().remove();
-  };
+  })
 }
 
 function printResult(opString) {
