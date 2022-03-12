@@ -5,19 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
-    <title>Document</title>
+    <title>COMP-1537 LAB-08</title>
   </head>
-  <body>
-    <div class="container container--weather">
-      <div class="prompt">
-        <label class="prompt__question" for="city">Enter a city name</label>
-        <input class="prompt__input" name="city" placeholder="City">
+  <body><span class="container">
+      <div class="movie">
+        <label class="movie__label" for="movie-title">Enter a movie title:</label>
+        <input class="movie__input" name="movie-title">
       </div>
-      <div class="output"><img class="output__icon">
-        <h1 class="output__temp"> </h1>
-      </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+      <div id="results"></div></span><span class="container"> 
+      <div class="backdrop"><img class="backdrop__img"></div></span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./assets/scripts.js"></script>
   </body>
 </html>
