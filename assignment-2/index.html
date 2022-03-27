@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>COMP-1537 LAB-08</title>
+</head>
+
+<body>
+  <main>
+    <span class="container"><span>
+        <label for="in-page-size">Items Per Page </label>
+        <select class="text-black" id="in-page-size" name="page-size">
+          <option class="text-black" value="3">3</option>
+          <option class="text-black" value="5">5</option>
+          <option class="text-black" value="10">10</option>
+          <option class="text-black" value="20">20</option>
+        </select></span><span class="movie">
+        <label class="movie__label" for="in-movie-title">Enter a movie title:</label>
+        <input class="movie__input text-black" id="in-movie-title" name="movie-title"></span>
+      <div id="paginator"></div>
+      <div id="results">
+        <div class="btns"> </div>
+        <div class="items"></div>
+      </div>
+    </span><span class="container">
+      <div class="backdrop"><img class="backdrop__img"></div>
+    </span>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>

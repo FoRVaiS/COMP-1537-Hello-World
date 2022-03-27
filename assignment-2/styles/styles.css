@@ -1,0 +1,92 @@
+*, *::before, *::after {
+  font-family: system-ui;
+}
+
+*, *::before, *::after {
+  font-family: system-ui;
+  color: #e6e6e6;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+#title {
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.text-black {
+  color: black;
+}
+
+.movie {
+  width: max-content;
+  margin-inline: auto;
+}
+.movie__input {
+  margin-left: 8px;
+}
+
+.backdrop__img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__title {
+  font-size: 39.0625px;
+}
+
+.card {
+  display: flow-root;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 4px;
+  border-radius: 3px;
+  width: 33.33333%;
+  padding-block: 12px;
+}
+@media (max-width: 1200px) {
+  .card {
+    width: 100%;
+  }
+}
+.card__title {
+  font-weight: 700;
+}
+.card__thumbnail {
+  height: 350px;
+  overflow-y: hidden;
+}
+.card__image {
+  transform: translateY(-25%);
+  width: 100%;
+}
+.card__buttons {
+  display: flow-root;
+  align-self: flex-end;
+}
+.card__button {
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #f2f2f2;
+  float: right;
+  align-self: end;
+}
+.card__button:hover {
+  border: 1px solid gray;
+  color: gray;
+}
+.card__thumbnail, .card__header, .card__description, .card__buttons {
+  padding: 12px;
+}
+.card__header {
+  padding-block: 0;
+}
